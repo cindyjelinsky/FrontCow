@@ -28,7 +28,7 @@
     font-family: "Open sans", Arial, Helvetica, sans-serif;
     color: var(--p_intro);
     font-size: 0.7rem;
-    text-transform: capitalize;
+   
     line-height: 1.2rem;
  }
 
@@ -111,7 +111,7 @@
 }
 
 .introduction p {
-    text-transform: capitalize;
+   
     padding-top: 25px;
     padding-bottom: 8px;
        
@@ -299,8 +299,12 @@ footer .s-media{
           
     }
 
+    .introduction h2{
+        font-size: 1.7rem;
+    }
+
     .introduction p {
-        text-transform: capitalize;
+      
         padding-top: 30px;
         padding-bottom: 8px;
         font-size: 0.9rem;
@@ -341,6 +345,10 @@ footer .s-media{
       
     }
 
+    .personal h2{
+        font-size: 1.7rem;
+    }
+
 
 
     /* Portfolio */
@@ -360,10 +368,85 @@ footer .s-media{
         padding-top: 60px;
     }
 
+    #portfolio h2{
+        font-size: 1.7rem;
+    }
+
+
+    .img-portfolio img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 15px 15px;
+    }
+
 
     .img-portfolio{
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        
     }
+
+
+    .btn{
+        
+        padding: 10px 30px;
+        margin-bottom: 60px;
+    }
+
+  /* Footer */
+
+   footer{
+    
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 0 0 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--footerbg)
+
+   }
+
+
+   footer .s-media{
+   display: flex;
+   text-align: center;
+    order: 2;
+    margin: 0;
+    padding-right: 80px;
+    
+    }
+
+   
+    
+
+   
+
+    footer p{
+        text-transform: uppercase;
+        font-size: 16px;
+        color: var(--text_color);
+        margin-left: 80px;
+        
+        order: 1;
+    }
+
+    
+
+
+
+
+
+
+
 
 
 
